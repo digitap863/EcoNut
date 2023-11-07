@@ -1,9 +1,10 @@
 import React from 'react'
-
+import logo from '../../assets/Shared/eco-logo.png'
 function Farm() {
   return (
-    <div className='ml-40 my-20 mr-20 flex flex-col gap-5 font-readex font-light'>
-        <h1 className='text-[#006348] text-5xl font-semibold'>FARM</h1>
+    <div className='mx-5 mt-36 lg:mt-0 lg:mx-0 lg:ml-40 my-20 lg:mr-20 flex flex-col gap-5 font-readex font-light'>
+      <img src={logo} className=' absolute lg:hidden z-[-1] w-[25%] left-4 top-8' alt="" />
+        <h1 className='text-[#006348] text-4xl lg:text-5xl font-semibold'>FARM</h1>
         <h3 className='text-[#4A4A4A] font-bold text-2xl'>Our Community</h3>
         <p className='leading-relaxed text-justify'>{`Agriculture being primery occupation of rural people, makes it as predominantly the base of nation's economy. Agriculture and farmers continue to face challenges that have hindered its capacity to spur economic growth. Some important factors are climate change, globalization and unfavourable market conditions. Agriculture has been very slow to evolve compared to other sectors. Due the slow growth it resulted in fragile infrastructure, weak institutions, limited access to technology, marginal productivity of land owners, exploitation and lack of general awareness. In order to address these challenges Econut has adopted many innovative approaches. Startegies are being piloted for promoting competitive business models in agriculture sectors.`}</p>
         <h3 className='text-[#4A4A4A] font-bold text-2xl'>The Farms</h3>  

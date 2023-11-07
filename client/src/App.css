@@ -21,15 +21,26 @@
     scrollbar-color: #555 #f0f0f0; /* Color of the scrollbar thumb and track */
   }
   
+  .rounded-sideBottom {
+      border-bottom-right-radius:55%10%;
+      border-bottom-left-radius: 55%10%;
+    
+    }
 
 .rounded-side {
   border-top-right-radius:95%25%;
   border-top-left-radius: 95%25%;
 
 }
-
-.rounded-sideBottom {
-    border-bottom-right-radius:55%10%;
-    border-bottom-left-radius: 55%10%;
+@media(max-width:480px){
+  .rounded-side {
+    border-top-right-radius:95%10%;
+    border-top-left-radius: 95%10%;
   
   }
+  .rounded-sideBottom {
+    border-bottom-right-radius:55%4%;
+    border-bottom-left-radius: 55%4%;
+  
+  }
+}
