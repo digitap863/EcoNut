@@ -10,7 +10,7 @@ function FarmerOwned() {
             <div className='bg-white flex justify-between lg:mx-60 py-3 lg:py-4  px-5 lg:px-12 rounded-[2rem] lg:rounded-[3rem] shadow-md lg:mt-5 items-center'>
                 {
                     logos.map((elem)=>(
-                        <img src={elem.image} alt="" key={elem.image} className='object-contain w-10 h-10 lg:w-16 lg:h-16'/>
+                        <img src={elem.image} alt="" key={elem.image} className='object-contain w-10 h-10 lg:w-20 lg:h-20'/>
                     ))
                 }
             </div>
