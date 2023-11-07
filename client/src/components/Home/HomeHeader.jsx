@@ -11,7 +11,7 @@ function HomeHeader() {
       <img src={bgImage2} className=' absolute lg:hidden z-[-1] w-full' alt="" />
       <img src={logo} className=' absolute lg:hidden z-[-1] w-[25%] left-4 top-4' alt="" />
       <Navbar />
-      <div className=' flex justify-center items-center h-[50%] lg:h-[30%]'>
+      <div className=' flex justify-center items-center h-[30%]'>
         <h1 className='text-[#006348] font-bold text-3xl md:text-5xl lg:text-6xl text-center uppercase'>Igniting change, <br /> Empowering lives</h1>
       </div>
     </div>

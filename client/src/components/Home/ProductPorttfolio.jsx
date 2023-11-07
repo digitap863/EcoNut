@@ -10,7 +10,7 @@ import leaf from '../../assets/Shared/leaf4.png'
 
 function ProductPorttfolio() {
     return (
-        <div className='bg-gradient-to-b from-slate-200 to-white mb-10 lg:mb-20 relative'>
+        <div className='bg-gradient-to-b from-slate-200 to-white mt-10 lg:mt-0 mb-10 lg:mb-20 relative'>
             <img src={leaf} alt="" className='absolute w-[30%] lg:w-auto'/>
             <div className='bg-[#009970]  text-white flex relative px-2 lg:px-0 justify-center py-2 md:py-5 lg:py-8 md:gap-20 lg:gap-36 mb-20'  style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'repeat' }}>
                 <div className='text-center'>
