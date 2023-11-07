@@ -5,12 +5,12 @@ import coconut from '../../assets/Shared/leaf2.png'
 
 function FarmerOwned() {
   return (
-    <div className='flex flex-col relative -mt-[86%] overflow-hidden lg:overflow-visible'>
+    <div className='flex flex-col relative -mt-[100%] lg:mt-0 overflow-hidden lg:overflow-visible'>
         <img src={leaf} alt="" className='absolute right-0 md:-top-[13%] lg:-top-[35%] z-[-1] w-[65%]'/>
-            <div className='bg-white flex justify-between lg:mx-60 py-4 lg:px-12 rounded-[2rem] lg:rounded-[3rem] shadow-md lg:mt-5'>
+            <div className='bg-white flex justify-between lg:mx-60 py-3 lg:py-4  px-5 lg:px-12 rounded-[2rem] lg:rounded-[3rem] shadow-md lg:mt-5 items-center'>
                 {
                     logos.map((elem)=>(
-                        <img src={elem.image} alt="" key={elem.image} className='object-contain'/>
+                        <img src={elem.image} alt="" key={elem.image} className='object-contain w-10 h-10 lg:w-16 lg:h-16'/>
                     ))
                 }
             </div>
