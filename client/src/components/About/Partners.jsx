@@ -9,7 +9,7 @@ import { logos } from '../../assets/constants';
 function Partners() {
     return (
         <div className='relative flex flex-col items-center'>
-            <img src={leaf} className='absolute -top-[180%] lg:-top-[110%] right-0' alt=""/>
+            <img src={leaf} className='absolute z-[-1] -top-[180%] lg:-top-[110%] right-0' alt=""/>
             <h1 className='text-[#006348] font-bold text-4xl lg:text-5xl mb-10 lg:mb-20 relative'>PARTNERS</h1>
             <div className='flex justify-center w-[90%] lg:w-[40%]'> 
             <Swiper

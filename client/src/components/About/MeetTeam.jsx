@@ -5,10 +5,10 @@ import teamimg from '../../assets/Shared/team.png'
 
 function MeetTeam() {
   return (
-    <div className='font-raleway flex flex-col items-center lg:mx-20 relative lg:my-32'>
-        <img src={bg} className=' hidden lg:absolute opacity-70' alt="" />
+    <div className='font-raleway flex flex-col items-center lg:mx-20 relative lg:mt-32 mb-60'>
+        <img src={bg} className='hidden lg:block absolute -top-[7%]' alt="" />
         <h1 className='text-[#006348] font-extrabold tracking-wider relative text-3xl lg:text-6xl'>MEET OUT TEAM</h1>
-        <img src={teamimg} alt="" className='w-full relative z-10 mt-10' />
+        <img src={teamimg} alt="" className='w-full relative z-10 mt-10 lg:hidden' />
         <div className=' flex-wrap justify-center  mt-40 gap-16 hidden lg:flex'>
             {
                 team.map((elem)=>(

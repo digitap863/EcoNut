@@ -24,17 +24,17 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className='overflw-hidden'>
-      {/* <ScrollToTopOnNavigate/> */}
-    <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Suspense fallback={<FallbackUI />}><About /></Suspense>} />
-        <Route path="/products" element={<Suspense fallback={<FallbackUI />}><Products /></Suspense>} />
-        <Route path="/contact" element={<Suspense fallback={<FallbackUI />}><Contact /></Suspense>} />
-        <Route path="/community" element={<Suspense fallback={<FallbackUI />}><Community /></Suspense>} />
-    </Routes>
-    </div>
-  </BrowserRouter>
+      <div className='overflow-hidden'>
+        {/* <ScrollToTopOnNavigate/> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Suspense fallback={<FallbackUI />}><About /></Suspense>} />
+          <Route path="/products" element={<Suspense fallback={<FallbackUI />}><Products /></Suspense>} />
+          <Route path="/contact" element={<Suspense fallback={<FallbackUI />}><Contact /></Suspense>} />
+          <Route path="/community" element={<Suspense fallback={<FallbackUI />}><Community /></Suspense>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

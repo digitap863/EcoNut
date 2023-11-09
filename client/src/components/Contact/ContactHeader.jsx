@@ -10,7 +10,8 @@ function  ContactHeader() {
 
   return (
     <div className='h-screen bg-[#006348] font-readex relative overflow-hidden rounded-sideBottom'>
-      <img src={logo} className=' absolute lg:hidden  w-[25%] left-4 top-8' alt="" />
+      {/* <img src={logo} className=' absolute lg:hidden  w-[25%] left-4 top-8' alt="" /> */}
+      <img src={logo} className=' absolute lg:w-[7%] z-10 w-[25%] left-4 lg:left-16 top- lg:top-6' alt="" />
       <Navbar />
       <img src={ellipse} alt="" className='absolute -top-[40%] w-[30%] -left-20 opacity-40' />
       <img src={ellipse} alt="" className='absolute top-[15%] w-[10%] right-[35%] rotate-180' />

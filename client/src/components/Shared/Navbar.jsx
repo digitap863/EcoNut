@@ -45,14 +45,14 @@ function Navbar() {
         </div>
         {/* linke items */}
         <div className='flex justify-center'>
-          <ul className={`flex flex-col gap-16  lg:flex-row items-center justify-center lg:justify-start lg:pb-0 pb-12 absolute lg:static lg:z-auto left-0 w-full lg:w-auto ${path==='/contact'||path==='/about'?"text-white":'text-[#006348]'} transition-all duration-500 ease-in-out  ${open ? ' top-0 gap-10 text-2xl md:text-4xl h-screen bg-white !text-[#006348] z-[10]' : 'top-[-560px]'}`}>
+          <ul className={`flex flex-col gap-16  lg:flex-row items-center justify-center lg:justify-start lg:pb-0 pb-12 absolute lg:static lg:z-auto left-0 w-full lg:w-auto ${path==='/contact'||path==='/about' || path==='/'?"text-white":'text-[#006348]'} transition-all duration-500 ease-in-out  ${open ? ' top-0 gap-10 text-2xl md:text-4xl h-screen bg-white !text-[#006348] z-[10]' : 'top-[-570px]'}`}>
             {
               Links.map((link) => (
                 <li key={link.name}>
-                  <a href={link.link} className={`hover:text-[#EAB600]  font-bold duration-500`}>{link.name}</a>
+                  <a href={link.link} className={`hover:text-[#EAB600] ${path===link.link?'border-b-[2px] pb-1':''} ${path==='/products'|| path==='/community'?'border-[#006348]':''} font-bold duration-500`}>{link.name}</a>
                 </li>))
             }
-            <Button className={`${path==='/contact'?"bg-white":'bg-transparent'} border-[#006348] border-[2px] rounded-lg py-1.5 px-7 font-bold`} onClick={()=>navigate('/contact')}>Contact</Button>
+            <Button className={`${path==='/contact'?"bg-white":'bg-transparent'} ${path==='/'?'border-white text-white':'border-[#006348]'}  border-[2px] rounded-lg py-5 px-8 hover:bg-white hover:text-black font-bold`} onClick={()=>navigate('/contact')}>Contact</Button>
             <div className='flex gap-5 mt-10 text-4xl  lg:hidden'>
               <span className='rounded-full flex items-center justify-center p-1 h-[4rem] w-[4rem] border-[3px] hover:text-orange-700 hover:bg-white border-gray-300 transition ease-in-out duration-300'>
                 <FaFacebook />

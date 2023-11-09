@@ -10,7 +10,7 @@ function AboutHeader() {
   return (
     <div className='h-[130vh] md:h-[100vh] lg:h-[130vh] relative z-[1] bg-gradient-to-b from-[#80A39A] to-white lg:bg-transparent'>
       <img src={bgImage} className='hidden lg:block absolute z-[-1] rounded-sideBottom w-full' alt="" />
-      <img src={logo} className=' absolute lg:hidden z-[-1] w-[25%] left-4 top-8' alt="" />
+      <img src={logo} className=' absolute  z-[-1] w-[25%] lg:w-[7%] left-4 top-8 lg:left-16 g:top-6' alt="" />
       <img src={coc} className=' absolute lg:hidden z-[-1] w-[80%] right-0 bottom-[40%] md:bottom-[25%] opacity-60' alt="" />
     <Navbar />
     <div className=' flex flex-col text-[#006348] mx-3 lg:mx-0 mt-32 md:mt-40 lg:mt-0 font-readex justify-center lg:h-[65%] lg:pl-24'>
