@@ -38,7 +38,7 @@ function Navbar() {
   return (
     <div className='w-full  top-0 left-0 z-30 font-mont relative'>
       <div className='lg:flex items-center justify-center  py-4 md:px-16 px-7'>
-        <div onClick={() => setOpen(!open)} className={`absolute  right-8 top-6 cursor-pointer ${open?'text-black':'text-white'}  ${path==='/community'?'text-black':''} lg:hidden w-7 h-7 z-50`}>
+        <div onClick={() => setOpen(!open)} className={`absolute  right-8 top-6 cursor-pointer ${open || path =='/community' || path =='/products'?'text-black':'text-white'}  ${path==='/community'?'text-black':''} lg:hidden w-7 h-7 z-50`}>
           {
             open ? <XMarkIcon /> : <Bars3BottomRightIcon />
           }
