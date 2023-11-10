@@ -32,10 +32,10 @@ function CustomerReviews() {
                     }}
                 >
                     {reviews.map((elem) => (
-                        <SwiperSlide className='w-full pt-20  lg:py-20  overs' key={elem.name}>
-                            <div key={elem.name} className='shadow-lg hover:-translate-y-3 transition duration-300 ease-in-out w-full flex flex-col justify-center py-16 px-7 rounded-2xl lg:rounded-[2rem] relative bg-white'>
+                        <SwiperSlide className='w-full pt-20 pb-10  lg:py-20  overs' key={elem.name}>
+                            <div key={elem.name} className='shadow-lg hover:-translate-y-3 transition duration-300 border-t-[2px] ease-in-out w-full flex flex-col justify-center py-16 px-7 rounded-2xl lg:rounded-[2rem] relative bg-white'>
                                 <h2 className='text-xl mt-5 font-bold mb-2'>{elem.name}</h2>
-                                <img src={elem.image} alt="user" className='w-[25%] absolute left-[15%] -top-[20%] z-10' />
+                                <img src={elem.image} alt="user" className=' lg:w-[25%] absolute lg:left-[15%] -top-[20%] z-10' />
                                 <p className='z-10 '>{elem.review}</p>
                             </div>
                         </SwiperSlide>

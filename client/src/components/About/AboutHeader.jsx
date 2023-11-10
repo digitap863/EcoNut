@@ -13,7 +13,7 @@ function AboutHeader() {
       <img src={logo} className=' absolute  z-[-1] w-[25%] lg:w-[7%] left-4 top-8 lg:left-16 g:top-6' alt="" />
       <img src={coc} className=' absolute lg:hidden z-[-1] w-[80%] right-0 bottom-[40%] md:bottom-[25%] opacity-60' alt="" />
     <Navbar />
-    <div className=' flex flex-col text-[#006348] mx-3 lg:mx-0 mt-32 md:mt-40 lg:mt-0 font-readex justify-center lg:h-[65%] lg:pl-24'>
+    <div className=' flex flex-col text-[#006348] mx-3 lg:mx-0 mt-32 md:mt-40 lg:mt-10 font-readex justify-center lg:h-[65%] lg:pl-24'>
         <p className='font-semibold text-lglg:text-2xl mb-2'>About Us</p>
       <h1 className=' font-bold text-4xl md:text-5xl lg:text-6xl text-white'>{`IT'S ALL ABOUT COCONUT`}</h1>
         <p className='font-[500] lg:text-2xl mb-5 font-raleway text-white md:w-[70%] lg:w-[60%] mt-8'>Econut Coconut Producer Company Limited (ECPCL) is a Farmer Producer Organisation which is a joint initiative of the farmers of mysore and Coconut Development Board(CDB), Ministry of Agriculture and Farmers welfare (Government of India)</p>

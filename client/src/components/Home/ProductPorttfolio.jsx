@@ -74,11 +74,11 @@ function ProductPorttfolio() {
         <div className='bg-[#14604f32] mt-10 lg:mt-0 mb-10 lg:mb-20 relative'>
             <img src={leafi} className='absolute rotate-90 right-[0%] bottom-0' alt="" />
             <img src={leaf} alt="" className='absolute w-[30%] lg:w-auto' />
-            <div ref={observerRef} className='bg-[#009970]  text-white flex relative px-2 lg:px-0 justify-center py-2 md:py-5 lg:py-8 md:gap-20 lg:gap-36 mb-20' style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'repeat' }}>
+            <div ref={observerRef} className='bg-[#009970]  text-white flex relative px-2 lg:px-0 pr-7 lg:pr-0 justify-center py-2 md:py-5 lg:py-8 md:gap-20 lg:gap-36 mb-20' style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'repeat' }}>
                 {data.map((item, index) => (
                     <div key={index} className='text-center'>
                         <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl mb-2'>{counts[index]}</h2>
-                        <p className='text-green-100 text-tiny lg:text-base font-raleway'>{item.label}</p>
+                        <p className='text-green-100 text-tiny lg:text-base font-raleway '>{item.label==='Farmer/Shareholders'?'Farmer/ Shareholders':item.label}</p>
                     </div>
                 ))}
             </div>
@@ -122,7 +122,7 @@ function ProductPorttfolio() {
                         ))}
                     </Swiper>
                 </div>
-                <Button size='lg' radius='sm' className='bg-[#006348] text-white font-raleway my-5 lg:mt-16 py-7 px-12 text-lg font-semibold'>View More</Button>
+                <Button size='lg' radius='sm' className='bg-[#006348] text-white font-raleway mt-5 mb-16 lg:mt-16 py-7 px-12 text-lg font-semibold'>View More</Button>
             </div>
         </div>
     )

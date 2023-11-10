@@ -23,7 +23,7 @@ function Partners() {
                 {
                     logos.map((elem) => (
                        
-                        <SwiperSlide className='' key={elem.name}>
+                        <SwiperSlide className='bg-transparent' key={elem.name}>
                         <div key={elem.image} className='flex justify-center lg:py-5 border rounded-[2rem] h-[6rem] md:h-[8rem] lg:h-[10rem] border-slate-200 bg-white'>
                             <img src={elem.image} alt="" className='w-[50%] object-contain'/>
                         </div>

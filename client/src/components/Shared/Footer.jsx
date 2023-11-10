@@ -18,7 +18,7 @@ function Footer() {
                     </div>
                     <div className='flex flex-col gap-5 mt-10  lg:mt-0 lg:w-[50%]'>
                         <h1 className='font-bold text-xl lg:text-3xl'>CONTACT US</h1>
-                        <p className='text-lg w-[85%] leading-10 tracking-wider'>Corporate Office, Basaveshwara Nagar, Bengaluru, KarnatakaIndia</p>
+                        <p className='text-lg w-[85%] leading-10 tracking-wider'>Corporate Office, Basaveshwara Nagar, Bengaluru, Karnataka India</p>
                         <a href='tel:+919088787767' className='text-lg flex items-center gap-4 -mt-1'><span className='text-2xl'><BsTelephoneFill/></span> +91 9088 787 767</a>
                         <a href='mailto:support@econut.in' className='text-lg flex items-center gap-4 -mt-1'><span className='text-2xl'><GrMail/></span>support@econut.in</a>
                     </div>

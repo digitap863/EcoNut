@@ -13,7 +13,7 @@ function ProductsHeader() {
       <Navbar />
       <div className=' flex flex-col text-[#006348] mx-2 lg:mx-0 font-readex justify-center h-[40%] lg:pl-24'>
         <p className='font-semibold text-lg lg:text-2xl mb-2'>Product Portfolio</p>
-        <h1 className=' font-semibold  text-4xl lg:text-6xl mb-3'>OUR PRODUCTS</h1>
+        <h1 className=' font-semibold  text-4xl lg:text-6xl'>OUR PRODUCTS</h1>
         <h1 className=' font-semibold  text-4xl lg:text-6xl'>DIFFER FROM OTHERS</h1>
       </div>
     </div>
